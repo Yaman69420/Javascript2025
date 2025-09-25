@@ -1,5 +1,4 @@
-// 1. Print machten van 2: Gebruik een for-loop om de machten van 2 te printen, beginnend bij
-// 1, totdat de macht groter is dan 1000.
+// 1. Print machten van 2: Gebruik een for-loop om de machten van 2 te printen, beginnend bij 1, totdat de macht groter is dan 1000.
 
 // for (let i = 1; i <= 1000; i=i+1) {
 //     if (i ** 2 < 1000) {
@@ -80,19 +79,35 @@
 // }
 // console.log(som);
 
-// 8. Print de kwadraten van getallen: Gebruik cen for-loop om de kwadraten van de getallen van 1 tot 10 te printen (bijv. 1, 4, 9, 16, ..., 100).
+// 8. Print de kwadraten van getallen: Gebruik en for-loop om de kwadraten van de getallen van 1 tot 10 te printen (bijv. 1, 4, 9, 16, ..., 100).
 
-let getal = 1;
-let kwadraten = 1
-    while (getal <= 10)
-    {
-        kwadraten = kwadraten * getal
-        getal++
-        console.log(kwadraten)
-    }
-
+// let getal = 1;
+// let kwadraten = 1
+//     while (getal <= 10)
+//     {
+//         kwadraten = getal * getal
+//         getal++
+//         console.log(kwadraten)
+//     }
 
 
 // 9. Print getallen tussen 1 en n die deelbaar zijn door 5: Vraag cen getal n aan de gebruiker en print alle getallen van 1 tot n die deelbaar zijn door 5.
-// 10. Print het omgekeerde van een getal: Vraag een getal aan de gebruiker en gebruik een for-loop om het omgekeerde van dat getal te printen (bijv. 1234 wordt
 
+// let getal = parseInt(window.prompt("Geef een getal in"));
+// let i = 1;
+//
+//     while (getal >= i)
+//     {
+//         if (i % 5 == 0)
+//         {
+//             console.log(i);
+//         }
+//         i++
+//     }
+
+// 10. Print het omgekeerde van een getal: Vraag een getal aan de gebruiker en gebruik een for-loop om het omgekeerde van dat getal te printen (bijv. 1234 wordt 4321)
+
+let getallen = [parseInt(window.prompt("Geeft een getal in"))];
+    getallen.reverse();
+for (let getal of getallen)
+    console.log(getal);
