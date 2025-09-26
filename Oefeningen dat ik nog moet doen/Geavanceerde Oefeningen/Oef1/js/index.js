@@ -1,4 +1,38 @@
 // 1. Print priemgetallen: Gebruik een for-loop om alle priemgetallen tussen 1 en 100 te printen.
+
+// let primgetal = 1
+//
+// while (primgetal <= 100)
+// {
+//     if (primgetal % primgetal === 0)
+//     if (primgetal % 1 === primgetal)
+//     {
+//         console.log(primgetal);
+//         primgetal++;
+//     }
+// }
+
+let primgetal = 2;
+
+while (primgetal <= 100) {
+    let prime = true;
+    let i = 2;
+
+    while (i < primgetal) {
+        if (primgetal % i === 0) {
+            prime = false;
+            break;
+        }
+        i++;
+    }
+
+    if (prime) {
+        console.log(primgetal);
+    }
+    primgetal++;
+}
+
+
 // 2. Bereken de faculteit van een getal: Vraag een getal aan de gebruiker en gebruik een for-loop om de faculteit (factorial) van dat getal te berekenen.
 // 3. Print getallen die een bepaald patroon volgen: Print de getallenreeks 1, 2, 4, 8, 16, 32,...., totdat de waarde groter is dan een door de gebruiker opgegeven getal.
 // 4. Tel de cijfers in een getal: Vraag een getal aan de gebruiker en gebruik een for-loop om het aantal cijfers in dat getal te tellen.
