@@ -112,7 +112,7 @@
 // for (let getal of getallen)
 //     console.log(getal);
 
-let number = parseInt(prompt("Voer een getal in:"));
+let number = parseInt(window.prompt("Voer een getal in:"));
 let reversed = 0;
 
 while (number > 0) {
