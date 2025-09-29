@@ -105,6 +105,8 @@ while (i < number){
 console.log(grootsteDeler);
 
 // 7. Print de Fibonacci-reeks: Gebruik een for-loop om de eerste 10 getallen van de Fibonacci-reeks te printen (bijv. 1, 1, 2, 3, 5, 8,...).
+
+
 // 8. Som van de Fibonacci-reeks: Bereken de som van de eerste n getallen in de Fibonacci-reeks, waarbij n door de gebruiker wordt ingevoerd.
 // 9. Controleer of een getal een priemgetal is: Vraag een getal aan de gebruiker en gebruik een for-loop om te controleren of het een priemgetal is.
 // 10. Print een driehoek van sterretjes: Gebruik een for-loop om een driehoek van sterretjes te printen, waarbij het aantal rijen door de gebruiker wordt opgegeven. Bijvoorbeeld, voor 5

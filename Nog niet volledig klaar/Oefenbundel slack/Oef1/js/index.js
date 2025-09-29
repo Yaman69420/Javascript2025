@@ -59,16 +59,34 @@
 // Oefening 5: Zoeken in een array
 // Schrijf een programma dat controleert of een bepaald getal aanwezig is in een array en "Gevonden!" afdrukt als het aanwezig is, anders "Niet gevonden".
 
-let getallen = [9,7,3,4,5,2,6,2,1,2]
-let getal1 = 0;
-for (let getal of getallen)
-    while(getal1 !== getal)
-        {
-        getal1 = parseInt(window.prompt("geef een getal in"))
-        if (getal1 == getal)
-        {
-            console.log("Gevonden")
-        }
+// let getallen = [9,7,3,4,5,2,6,2,1,2]
+// getal1 = parseInt(window.prompt("geef een getal in"))
+//
+// for (let getal of getallen)
+//     while(getal1 !== getal)
+//     console.log("Niet Gevonden")
+//         {
+//         if (getal1 === getal)
+//         {
+//             console.log("Gevonden")
+//         }
+//     }
+
+
+let getallen = [9,7,3,4,5,2,6,2,1,2];
+let getal1 = parseInt(window.prompt("Geef een getal in"));
+let gevonden = false;
+
+for (let getal of getallen) {
+    if (getal1 === getal) {
+        alert("Gevonden");
+        gevonden = true
     }
+}
+
+if (!gevonden) {
+    alert("Niet Gevonden");
+}
+
 
 //NIET OPGELOST
