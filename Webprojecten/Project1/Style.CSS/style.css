@@ -1,0 +1,14 @@
+
+
+body{background:lightgrey;}
+h1{color:saddlebrown}
+section{background: aliceblue}
+#fullstackdevelopment{
+    background:black;
+    color:white;
+    font-style: italic;
+    font-weight: 900;
+    /*400 -500 -900, bold, bolder*/
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;}

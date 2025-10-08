@@ -96,30 +96,30 @@
 // **
 // *
 
-let aantalsterren = parseInt(window.prompt("Geef het aantal sterren in"))
-let ster = ""
-let teller1 = 1
-let teller = aantalsterren
-
-while (teller1 <= aantalsterren)
-{
-    aantalsterren--
-    ster = ster + "*"
-    console.log(ster)
-
-}
-
-while (teller > 0) {
-    let ster = ""
-    let getal = 0
-    while (getal < teller) {
-        ster = ster + "*"
-        getal++
-    }
-
-    console.log(ster)
-    teller--
-}
+// let aantalsterren = parseInt(window.prompt("Geef het aantal sterren in"))
+// let ster = ""
+// let teller1 = 1
+// let teller = aantalsterren
+//
+// while (teller1 <= aantalsterren)
+// {
+//     aantalsterren--
+//     ster = ster + "*"
+//     console.log(ster)
+//
+// }
+//
+// while (teller > 0) {
+//     let ster = ""
+//     let getal = 0
+//     while (getal < teller) {
+//         ster = ster + "*"
+//         getal++
+//     }
+//
+//     console.log(ster)
+//     teller--
+// }
 
 // 1.2.4. Oefening 4 - For Loop
 // • Schrijf een programma die de facultateit van een getal weergeeft.
@@ -128,6 +128,17 @@ while (teller > 0) {
 // • Vraag dit getal aan de gebruiker
 
 // let getal = parseInt(window.prompt("Geef hier een getal in"))
-// let teller = 1
-// while
+// let facultiet = 1
+// while (getal >= 1){
+//     facultiet *= getal
+//     getal--
+//
+// }
+// console.log(facultiet)
+
+// 1.2.5. Oefening 4 - For Loop
+// Schrijf een programma die je alle potentiële mogelijk combinaties geeft in een 2-decimale vorm uitgeprint met een komma ertussen tot en met 99.
+// • Voorbeeld van de output:
+//     • 00,01,02,03,04,05,06,08,09,10,11 .. 99
+
 

@@ -112,16 +112,16 @@
 // for (let getal of getallen)
 //     console.log(getal);
 
-let number = parseInt(window.prompt("Voer een getal in:"));
-let reversed = 0;
-
-while (number > 0) {
-    let laatsteCijfer = number % 10;      // Pak het laatste cijfer
-    reversed = reversed * 10 + laatsteCijfer; // Voeg toe aan reversed
-    number = (number - (number % 10)) / 10;   // Verwijder het laatste cijfer
-}
-
-console.log(reversed);
+// let number = parseInt(window.prompt("Voer een getal in:"));
+// let reversed = 0;
+//
+// while (number > 0) {
+//     let laatsteCijfer = number % 10;      // Pak het laatste cijfer
+//     reversed = reversed * 10 + laatsteCijfer; // Voeg toe aan reversed
+//     number = (number - (number % 10)) / 10;   // Verwijder het laatste cijfer
+// }
+//
+// console.log(reversed);
 
 
 // let number = parseInt(prompt("Voer een getal in:"));
@@ -174,3 +174,35 @@ console.log(reversed);
 // Stop
 // De for-loop stopt omdat i > 0 niet meer waar is.
 //     Het resultaat is 4321.
+
+
+// let getallen = []
+// let i = 0
+// while( i < 5 ){
+//     let getal = parseInt(prompt("Geef hier een getal in:"))
+//     getallen.push(getal)
+//     i++
+// }
+// console.log(getallen)
+
+// Vraag de gebruiker hoeveel getallen hij wil invoeren
+const aantal = parseInt(prompt("Hoeveel getallen wil je invoeren?"));
+
+const getallen = [];
+const getallen2 = [];
+const som = [];
+
+
+for (let i = 0; i < aantal; i++) {
+    const input = parseFloat(prompt(`Geef getal ${i + 1}:`));
+    getallen.push(input);
+    getallen2.push(input);
+    som.push(getallen[i]+getallen2[i]);
+}
+
+console.log("Je array is:", getallen);
+console.log("Je array is:", getallen2);
+console.log("Je array is:", som);
+
+
+

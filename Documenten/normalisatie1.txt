@@ -1,0 +1,6 @@
+| Student       | Vak          | Docent       | Punten |
+| ------------- | ------------ | ------------ | ------ |
+| Jan Peeters   | Databanken   | Mevr. Jacobs | 15     |
+| Jan Peeters   | Webdesign    | Dhr. Claeys  | 14     |
+| Sarah De Smet | Databanken   | Mevr. Jacobs | 18     |
+| Sarah De Smet | Programmeren | Dhr. Willems | 16     |
