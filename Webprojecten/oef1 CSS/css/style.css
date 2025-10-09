@@ -214,3 +214,34 @@
 .flex-shrink-1 {
     flex-shrink: 1;
 }
+
+
+#A{
+    width: 100vw;
+    height: 400px;
+    background: rgba(0,0,0,1);
+}
+
+#B{
+    width: 100vw;
+    height: 400px;
+    background: rgba(0,0,0,0.7);
+}
+
+#C{
+    width: 100vw;
+    height: 400px;
+    background: rgba(0,0,0,0.2);
+}
+
+#D{
+    width: 100vw;
+    height: 400px;
+    background: blueviolet;
+}
+
+#E{
+    width: 100vw;
+    height: 400px;
+    background: orange;
+}
