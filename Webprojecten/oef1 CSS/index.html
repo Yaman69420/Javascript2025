@@ -2,37 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Style</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js" defer></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Flex Verdeling</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<main>
-    <div style="height:400px; width:100vw;" class="d-flex justify-content-evenly">
-        <div id = "A" class="d-flex justify-content-evenly">
-            <div style="width: 100px; height: 72px; background: blue;">A</div>
+
+<div class="d-flex" style="width:100%; height:400px;">
+
+    <!-- Linkerkolom: 1,2,3,4,5 (neemt 33.33%) -->
+    <section class="d-flex" style="width:33.33%; border:1px solid #000;">
+        <div class="d-flex flex-column flex-grow-1">
+            <div class="flex-grow-1 d-flex justify-content-center align-items-center" style="border:1px solid #000;">1</div>
+            <div class="flex-grow-1" style="border:1px solid #000;">2</div>
         </div>
-        <div id = "B" class="d-flex justify-content-center flex-wrap-reverse">
-            <div style="width: 100px; height: 72px; background: pink;">B</div>
+        <div class="d-flex flex-column flex-grow-1">
+            <div class="d-flex flex-row flex-grow-1">
+                <div class="flex-grow-1" style="border:1px solid #000;">3</div>
+                <div class="flex-grow-1" style="border:1px solid #000;">4</div>
+            </div>
+            <div class="flex-grow-1" style="border:1px solid #000;">5</div>
         </div>
-        <div id = "C" class="d-flex justify-content-center align-items-center">
-            <div style="width: 100px; height: 72px; background: gray;">C</div>
+    </section>
+
+    <!-- Rechterkolom: Blok 1-5 (neemt 66.66%) -->
+    <section class="d-flex flex-column" style="flex:0 0 66.66%;">
+
+        <!-- Rij met 3 kolommen -->
+        <div class="d-flex flex-row flex-grow-1">
+            <div class="flex-grow-1" style="border:1px solid #000;">Blok 1</div>
+            <div class="flex-grow-1" style="border:1px solid #000;">Blok 2</div>
+            <div class="flex-grow-1" style="border:1px solid #000;">Blok 3</div>
         </div>
-    </div>
-    <div style="height:400px; width:100vw; background: yellow;" class="d-flex justify-content-evenly">
-        <div id = "D" class="d-flex justify-content-center align-items-center">
-        <a href="https://youtu.be/xvFZjo5PgG0?si=RxmS2Yu_5WWZgu6i">
-            <div style="width: 100px; height: 72px; background: purple;">D</div>
-        </a>
+
+        <!-- Rij met 2 kolommen -->
+        <div class="d-flex flex-row flex-grow-1">
+            <div class="flex-grow-1" style="border:1px solid #000;">Blok 4</div>
+            <div class="flex-grow-1" style="border:1px solid #000;">Blok 5</div>
         </div>
-        <div id = "E" class="d-flex justify-content-center align-items-center">
-            <a href="https://youtu.be/xvFZjo5PgG0?si=RxmS2Yu_5WWZgu6i">
-                <div style="width: 100px; height: 72px; background: white;">E</div>
-            </a>
-        </div>
-    </div>
-</main>
+
+    </section>
+
+</div>
+
 </body>
 </html>
