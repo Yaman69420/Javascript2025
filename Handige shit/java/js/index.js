@@ -171,7 +171,7 @@
 // let elementen = [4,3,6,23,2];
 // let hoogste = 0;
 // for (let element of elementen){
-//     if(hoogste < element)
+//     if (hoogste < element)
 //     {
 //         hoogste = element;
 //     }
